@@ -2,6 +2,11 @@
 // Supports uploaded audio assets (flap, score, crash, BGM) with zero latency
 // and synthesized fallback + special event audio (dragons, warp, potty, shields).
 
+const soundAssetUrl = (path) => {
+  const base = import.meta.env.BASE_URL || '/'
+  return `${base.endsWith('/') ? base : `${base}/`}${path.replace(/^\/+/, '')}`
+}
+
 class SoundEngine {
   constructor() {
     this.ctx = null
@@ -15,7 +20,7 @@ class SoundEngine {
     // Initialize HTML5 Audio fallback/player for BGM
     if (typeof window !== 'undefined') {
       try {
-        const bgm = new Audio('/sounds/bgm.mp3')
+        const bgm = new Audio(soundAssetUrl('sounds/bgm.mp3'))
         bgm.loop = true
         bgm.volume = 0.35
         bgm.preload = 'auto'
@@ -44,9 +49,9 @@ class SoundEngine {
     this.isPreloaded = true
 
     const soundFiles = {
-      flap: '/sounds/flap.mp3',
-      score: '/sounds/score.mp3',
-      crash: '/sounds/crash.mp3',
+      flap: soundAssetUrl('sounds/flap.mp3'),
+      score: soundAssetUrl('sounds/score.mp3'),
+      crash: soundAssetUrl('sounds/crash.mp3'),
     }
 
     const ctx = this.ensureContext()

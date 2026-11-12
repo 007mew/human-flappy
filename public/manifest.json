@@ -2,8 +2,8 @@
   "name": "Human Flappy - Kids Arcade",
   "short_name": "Human Flappy",
   "description": "Flap high with 5 epic agents, superhero dog boosters, and the mysterious monster realm!",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0d1b2a",
@@ -11,19 +11,19 @@
   "categories": ["games", "arcade", "kids"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/maskable-icon-512.png",
+      "src": "./maskable-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

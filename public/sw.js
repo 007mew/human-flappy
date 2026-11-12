@@ -1,15 +1,15 @@
 // Human Flappy PWA Service Worker
-const CACHE_NAME = 'human-flappy-pwa-v4'
+const CACHE_NAME = 'human-flappy-pwa-v5'
 
 const CORE_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/maskable-icon-512.png',
-  '/favicon.png',
-  '/apple-touch-icon.png',
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './maskable-icon-512.png',
+  './favicon.png',
+  './apple-touch-icon.png',
 ]
 
 self.addEventListener('install', (event) => {
@@ -61,7 +61,7 @@ self.addEventListener('fetch', (event) => {
         return caches.match(req).then((cached) => {
           if (cached) return cached
           if (req.headers.get('accept')?.includes('text/html')) {
-            return caches.match('/')
+            return caches.match('./')
           }
         })
       })
