@@ -1,0 +1,298 @@
+{
+  "communities": {
+    "0": [
+      "src_sound_soundengine",
+      "src_sound_soundengine_constructor",
+      "src_sound_soundengine_ensurecontext",
+      "src_sound_soundengine_playbooster",
+      "src_sound_soundengine_playbuffer",
+      "src_sound_soundengine_playclick",
+      "src_sound_soundengine_playcrash",
+      "src_sound_soundengine_playdogalert",
+      "src_sound_soundengine_playdogbark",
+      "src_sound_soundengine_playdragonroar",
+      "src_sound_soundengine_playfireball",
+      "src_sound_soundengine_playflap",
+      "src_sound_soundengine_playgemcollect",
+      "src_sound_soundengine_playheal",
+      "src_sound_soundengine_playhurt",
+      "src_sound_soundengine_playmonsterroar",
+      "src_sound_soundengine_playpotty",
+      "src_sound_soundengine_playpowerup",
+      "src_sound_soundengine_playscore",
+      "src_sound_soundengine_playshieldpop",
+      "src_sound_soundengine_playstarcollect",
+      "src_sound_soundengine_playthemechange",
+      "src_sound_soundengine_playwarp",
+      "src_sound_soundengine_preload",
+      "src_sound_soundengine_setenabled",
+      "src_sound_soundengine_setmusicenabled",
+      "src_sound_soundengine_startmusic",
+      "src_sound_soundengine_stopmusic",
+      "src_sound_soundengine_togglemusic"
+    ],
+    "1": [
+      "package",
+      "package_dependencies",
+      "package_dependencies_lucide_react",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_vite",
+      "package_dependencies_vitejs_plugin_react",
+      "package_devdependencies",
+      "package_devdependencies_pngjs",
+      "package_devdependencies_vitejs_plugin_basic_ssl",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_type",
+      "package_version",
+      "ref_lucide_react",
+      "ref_react",
+      "ref_react_dom",
+      "ref_vite",
+      "ref_vitejs_plugin_basic_ssl",
+      "ref_vitejs_plugin_react",
+      "src_index",
+      "src_main",
+      "vite_config"
+    ],
+    "2": [
+      "src_app",
+      "src_app_agents",
+      "src_app_drawcloud",
+      "src_app_level_names",
+      "src_app_modes",
+      "src_app_potty_quotes",
+      "src_app_preloadedagentimages",
+      "src_assets_agents_agent_arachno",
+      "src_assets_agents_agent_booboo",
+      "src_assets_agents_agent_robocat",
+      "src_assets_agents_agent_shadow",
+      "src_assets_agents_agent_spark",
+      "src_monsters",
+      "src_monsters_drawactiveshield",
+      "src_monsters_drawgem",
+      "src_monsters_drawmonster",
+      "src_monsters_drawmonsterrealmbg",
+      "src_monsters_drawpowerup",
+      "src_monsters_drawwarppipe",
+      "src_monsters_monster_types",
+      "src_themes_themes"
+    ],
+    "3": [
+      "public_manifest",
+      "public_manifest_background_color",
+      "public_manifest_categories",
+      "public_manifest_description",
+      "public_manifest_display",
+      "public_manifest_icons",
+      "public_manifest_name",
+      "public_manifest_orientation",
+      "public_manifest_scope",
+      "public_manifest_short_name",
+      "public_manifest_start_url",
+      "public_manifest_theme_color"
+    ],
+    "4": [
+      "ref_fs",
+      "ref_pngjs",
+      "scripts_generate_icons",
+      "scripts_generate_icons_appleicon",
+      "scripts_generate_icons_createicon",
+      "scripts_generate_icons_favicon",
+      "scripts_generate_icons_fs",
+      "scripts_generate_icons_icon192",
+      "scripts_generate_icons_icon512",
+      "scripts_generate_icons_maskable512",
+      "scripts_generate_icons_png"
+    ],
+    "5": [
+      "scripts_process_agents",
+      "scripts_process_agents_autocropalpha",
+      "scripts_process_agents_croppng",
+      "scripts_process_agents_floodfilltransparent",
+      "scripts_process_agents_fs",
+      "scripts_process_agents_png",
+      "scripts_process_agents_processarachno",
+      "scripts_process_agents_processbooboo",
+      "scripts_process_agents_processrobocat",
+      "scripts_process_agents_processshadow",
+      "scripts_process_agents_processspark"
+    ],
+    "6": [
+      "src_app_drawscene",
+      "src_themes",
+      "src_themes_drawbackgroundstars",
+      "src_themes_drawbonusstar",
+      "src_themes_drawconfetti",
+      "src_themes_drawdog",
+      "src_themes_drawsun",
+      "src_themes_drawthematicpipe",
+      "src_themes_drawthemebirds",
+      "src_themes_drawthemehomes",
+      "src_themes_getthemeforscore"
+    ],
+    "7": [
+      "src_app_app",
+      "src_app_clamp",
+      "src_app_makeclouds",
+      "src_app_makegame",
+      "src_app_rand",
+      "src_dragon_createdragon",
+      "src_dragon_updatedragon",
+      "src_themes_makehomes",
+      "src_themes_makethemebirds"
+    ],
+    "8": [
+      "src_dragon",
+      "src_dragon_drawdragon",
+      "src_dragon_drawdragonalertbanner",
+      "src_dragon_drawfireballs",
+      "src_dragon_drawwing",
+      "src_sound",
+      "src_sound_sound"
+    ],
+    "9": [
+      "public_sw",
+      "public_sw_core_assets"
+    ],
+    "10": [
+      "vercel",
+      "vercel_rewrites"
+    ],
+    "11": [
+      "src_main_canvasrenderingcontext2d_roundrect"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15517241379310345,
+    "1": 0.07977207977207977,
+    "2": 0.12857142857142856,
+    "3": 0.16666666666666666,
+    "4": 0.18181818181818182,
+    "5": 0.38181818181818183,
+    "6": 0.32727272727272727,
+    "7": 0.25,
+    "8": 0.38095238095238093,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_sound_soundengine",
+      "label": "SoundEngine",
+      "degree": 29
+    },
+    {
+      "id": "src_app_drawscene",
+      "label": "drawScene()",
+      "degree": 22
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 8
+    },
+    {
+      "id": "scripts_process_agents_autocropalpha",
+      "label": "autoCropAlpha()",
+      "degree": 7
+    },
+    {
+      "id": "src_app_makegame",
+      "label": "makeGame()",
+      "degree": 6
+    },
+    {
+      "id": "scripts_process_agents_floodfilltransparent",
+      "label": "floodFillTransparent()",
+      "degree": 5
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 4
+    },
+    {
+      "id": "scripts_process_agents_processspark",
+      "label": "processSpark()",
+      "degree": 4
+    },
+    {
+      "id": "src_dragon_drawdragon",
+      "label": "drawDragon()",
+      "degree": 4
+    },
+    {
+      "id": "src_themes_getthemeforscore",
+      "label": "getThemeForScore()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "drawScene()",
+      "target": "drawDragon()",
+      "source_files": [
+        "src/App.jsx",
+        "src/dragon.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "drawScene()",
+      "target": "drawDragonAlertBanner()",
+      "source_files": [
+        "src/App.jsx",
+        "src/dragon.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "drawScene()",
+      "target": "drawFireballs()",
+      "source_files": [
+        "src/App.jsx",
+        "src/dragon.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "drawScene()",
+      "target": "drawActiveShield()",
+      "source_files": [
+        "src/App.jsx",
+        "src/monsters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "drawScene()",
+      "target": "drawGem()",
+      "source_files": [
+        "src/App.jsx",
+        "src/monsters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
